@@ -15,7 +15,7 @@
         }
 
         function probil(products1) {
-            let products = products1.split(' ');
+            let products = products1.split(',');
 
             for (let i = products.length - 1; i >= 0; i--) {
                 if (products[i] === "") products.splice(i, 1);
